@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Russian">
+  <HealthTimer.Second>с</HealthTimer.Second>
+  <HealthTimer.Stable>Стабилен</HealthTimer.Stable>
+  <HealthTimer.Death>~Нокаут через: </HealthTimer.Death>
+  <HealthTimer.Healthy>~Здоров через: </HealthTimer.Healthy>
+  
+  <!-- Mod made with love by MeToilet -->
+  <!-- EnableHealthTimer -->
+  <HealthTimer.EnableHealthTimer.DisplayName>Включить Health Timer</HealthTimer.EnableHealthTimer.DisplayName>
+  <HealthTimer.EnableHealthTimer.DisplayCategory>Health Timer</HealthTimer.EnableHealthTimer.DisplayCategory>
+  <HealthTimer.EnableHealthTimer.Tooltip>Включить Health Timer.</HealthTimer.EnableHealthTimer.Tooltip>
+
+  <!-- CheckCooldown -->
+  <HealthTimer.CheckCooldown.DisplayName>Интервал проверки</HealthTimer.CheckCooldown.DisplayName>
+  <HealthTimer.CheckCooldown.DisplayCategory>Health Timer</HealthTimer.CheckCooldown.DisplayCategory>
+  <HealthTimer.CheckCooldown.Tooltip>Определяет интервал (в секундах), с которым выполняются вычисления времени. Уменьшение этого значения приведет к возрастанию нагрузки на процессор и может вызвать нестабильность таймера, однако при этом увеличится частота обновлений.</HealthTimer.CheckCooldown.Tooltip>
+
+  <!-- CheckCooldown -->
+  <HealthTimer.MaxPredict.DisplayName>Максимум просчета</HealthTimer.MaxPredict.DisplayName>
+  <HealthTimer.MaxPredict.DisplayCategory>Health Timer</HealthTimer.MaxPredict.DisplayCategory>
+  <HealthTimer.MaxPredict.Tooltip>Определяет максимальное количество секунд для прогнозирования. Нагрузка зависит от значения 'интервала проверки'. Например, настройка 0.5/300 (интервал проверки / максимум просчета) создаст вдвое большую нагрузку на компьютер, чем настройка 1.0/300.</HealthTimer.MaxPredict.Tooltip>
+
+  <!-- Mode -->
+  <HealthTimer.Mode.DisplayName>Режим</HealthTimer.Mode.DisplayName>
+  <HealthTimer.Mode.DisplayCategory>Health Timer</HealthTimer.Mode.DisplayCategory>
+  <HealthTimer.Mode.Tooltip>Выберите режим работы таймера. "Normal" — это стандартный режим. "Minimal" повышает производительность, но снижает точность.</HealthTimer.Mode.Tooltip>
+  <HealthTimer.Mode.Minimal.DisplayName>Minimal</HealthTimer.Mode.Minimal.DisplayName>
+  <HealthTimer.Mode.Normal.DisplayName>Normal</HealthTimer.Mode.Normal.DisplayName>
+</infotexts>
