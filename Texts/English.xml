@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
+  <HealthTimer.Second>s</HealthTimer.Second>
+  <HealthTimer.Stable>Stable</HealthTimer.Stable>
+  <HealthTimer.Death>~Unconscious in: </HealthTimer.Death>
+  <HealthTimer.Healthy>~Healthy in: </HealthTimer.Healthy>
   
   <!-- Mod made with love by MeToilet -->
-  <!-- EnableOreRadar -->
-  <OreRadar.EnableOreRadar.DisplayName>Enable Ore Radar</OreRadar.EnableOreRadar.DisplayName>
-  <OreRadar.EnableOreRadar.DisplayCategory>Ore Radar</OreRadar.EnableOreRadar.DisplayCategory>
-  <OreRadar.EnableOreRadar.Tooltip>Enable Ore Radar.</OreRadar.EnableOreRadar.Tooltip>
+  <!-- EnableHealthTimer -->
+  <HealthTimer.EnableHealthTimer.DisplayName>Enable Health Timer</HealthTimer.EnableHealthTimer.DisplayName>
+  <HealthTimer.EnableHealthTimer.DisplayCategory>Health Timer</HealthTimer.EnableHealthTimer.DisplayCategory>
+  <HealthTimer.EnableHealthTimer.Tooltip>Enable Health Timer.</HealthTimer.EnableHealthTimer.Tooltip>
+
+  <!-- CheckCooldown -->
+  <HealthTimer.CheckCooldown.DisplayName>Check cooldown</HealthTimer.CheckCooldown.DisplayName>
+  <HealthTimer.CheckCooldown.DisplayCategory>Health Timer</HealthTimer.CheckCooldown.DisplayCategory>
+  <HealthTimer.CheckCooldown.Tooltip>Defines the interval (in seconds) at which time calculations are performed. Reducing this value will increase the load on the processor and may cause timer instability, but it will also increase the update frequency.</HealthTimer.CheckCooldown.Tooltip>
+
+  <!-- CheckCooldown -->
+  <HealthTimer.MaxPredict.DisplayName>Max predict</HealthTimer.MaxPredict.DisplayName>
+  <HealthTimer.MaxPredict.DisplayCategory>Health Timer</HealthTimer.MaxPredict.DisplayCategory>
+  <HealthTimer.MaxPredict.Tooltip>Defines the maximum number of seconds for the prediction. The load is determined by the 'Check cooldown' value. For example, a setting of 0.5/300 (Check cooldown/Max predict) will place twice as much load on the computer as 1.0/300.</HealthTimer.MaxPredict.Tooltip>
+
+  <!-- Mode -->
+  <HealthTimer.Mode.DisplayName>Performance mode</HealthTimer.Mode.DisplayName>
+  <HealthTimer.Mode.DisplayCategory>Health Timer</HealthTimer.Mode.DisplayCategory>
+  <HealthTimer.Mode.Tooltip>Select the timer operating mode. 'Normal' represents the standard mode. 'Minimal' improves performance at the cost of reduced accuracy.</HealthTimer.Mode.Tooltip>
+  <HealthTimer.Mode.Minimal.DisplayName>Minimal</HealthTimer.Mode.Minimal.DisplayName>
+  <HealthTimer.Mode.Normal.DisplayName>Normal</HealthTimer.Mode.Normal.DisplayName>
 </infotexts>
